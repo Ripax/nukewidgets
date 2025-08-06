@@ -1,10 +1,11 @@
 import sys
-sys.path.append("/home/ripan/dev/")
+# sys.path.append("/home/ripan/dev/")
 
 
 from PySide2.QtCore import Qt, QPoint
 from PySide2.QtWidgets import QWidget, QApplication
-from nukeUI.ui.nukewidgets import Ui_Form
+# from nukeUI.ui.nukewidgets import Ui_Form
+from nukewidgets import Ui_Form
 import inspect
 import random
 
